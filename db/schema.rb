@@ -10,6 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20190908183544) do
 
   create_table "users", force: :cascade do |t|
@@ -17,5 +18,8 @@ ActiveRecord::Schema.define(version: 20190908183544) do
     t.string "password"
     t.float "balance"
   end
+=======
+ActiveRecord::Schema.define(version: 0) do
+>>>>>>> f4f1fc945f4f8198d545076831263944779a4d20
 
 end
